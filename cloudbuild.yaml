@@ -37,8 +37,8 @@ steps:
 availableSecrets:
   secretManager:
   - versionName: projects/$PROJECT_ID/secrets/sonar_token/versions/4
-    env: 'SONAR_TOKEN'
+    env: '74701f62504f44df7d4d7b22c4f9ef287eb0e310'
   - versionName: projects/$PROJECT_ID/secrets/sonar_org/versions/1
-    env: 'SONAR_ORG'
+    env: 'iagoleoni'
   - versionName: projects/$PROJECT_ID/secrets/sonar_project_key/versions/1
-    env: 'SONAR_PROJECT_KEY'
+    env: 'IagoLeoni_gcp-e2e-cicd'
