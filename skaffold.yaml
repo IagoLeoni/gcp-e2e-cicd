@@ -4,7 +4,7 @@ metadata:
   name: hello-world-python
 build:
   local: 
-    push: false
+    push: true
   artifacts:
   - image: hello-world-python
     context: app
