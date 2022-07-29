@@ -1,10 +1,10 @@
 apiVersion: skaffold/v2beta16
 kind: Config
 metadata:
-  name: default-app
+  name: hello-world-python
 build:
   local: 
-    push: false
+    push: true
   artifacts:
   - image: default-app
     context: app
