@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: hello-world-python
-        image: hello-world-python
+        image: default-app
         ports:
         - containerPort: 8080
           protocol: TCP
