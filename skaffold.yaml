@@ -16,7 +16,7 @@ deploy:
       - k8s/overlays/dev
 portForward:
 - resourceType: deployment
-  resourceName: default-app
+  resourceName: hello-world-python
   port: 8080 
   localPort: 8080
 profiles:
